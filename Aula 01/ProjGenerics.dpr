@@ -2,7 +2,8 @@ program ProjGenerics;
 
 uses
   Vcl.Forms,
-  UntPrincipal in 'UntPrincipal.pas' {FormGenerics};
+  UntPrincipal in 'View\UntPrincipal.pas' {FormGenerics},
+  UntKeyValue in 'Controller\UntKeyValue.pas';
 
 {$R *.res}
 
